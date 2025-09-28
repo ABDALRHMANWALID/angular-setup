@@ -1,59 +1,118 @@
-# AngularSetup
+# 🚀 Angular Project Starter (AngularSetup)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
-
-## Development server
-
-To start a local development server, run:
+This repository provides a **ready-to-use Angular starter project** designed to save developers time.  
+Instead of manually setting up Angular, configuring ESLint/Prettier, and installing tools, you can simply:
 
 ```bash
-ng serve
+git clone <repo-url>
+cd AngularSetup
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+And you’re ready to start building! 🎉  
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## ✨ Features
+
+- ✅ Preconfigured with **Angular CLI** (v20.3.1)  
+- ✅ **ESLint** for consistent code quality  
+- ✅ **Prettier** for automatic code formatting  
+- ✅ **Husky** with Git hooks (pre-commit checks)  
+- ✅ Ready-to-use project structure  
+- ✅ Faster setup → focus on coding, not configuration  
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone <repo-url>
+cd AngularSetup
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm start
+```
+
+Then open your browser at **http://localhost:4200/**.  
+The app will reload automatically when you make changes.  
+
+---
+
+## 📂 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm start` | Run the dev server (alias for `ng serve`) |
+| `npm run build` | Build the project into the `dist/` folder |
+| `npm run lint` | Run ESLint checks |
+| `npm run format` | Format code with Prettier |
+| `npm test` | Run unit tests with Karma |
+| `npm run prepare` | Setup Husky hooks |
+
+---
+
+## 🛠 Code Quality Tools
+
+### ESLint  
+Ensures consistent coding standards and helps catch common bugs.  
+
+### Prettier  
+Automatically formats code to keep everything clean and readable.  
+
+### Husky  
+Runs Git hooks (e.g., lint checks before commits) to maintain project quality and prevent bad code from being committed.  
+
+---
+
+## 🏗 Code Scaffolding
+
+Angular CLI includes scaffolding tools to speed up development. Example:  
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+For a full list of schematics:  
 
 ```bash
 ng generate --help
 ```
 
-## Building
+---
 
-To build the project run:
+## ✅ Testing
 
+### Unit tests
 ```bash
-ng build
+npm test
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### End-to-end (e2e) tests
 ```bash
 ng e2e
 ```
+> Note: Angular CLI does not include an e2e framework by default. You can choose Cypress, Playwright, or Protractor.  
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 📘 Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [Angular CLI Documentation](https://angular.dev/tools/cli)  
+- [ESLint](https://eslint.org/)  
+- [Prettier](https://prettier.io/)  
+- [Husky](https://typicode.github.io/husky/)  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
