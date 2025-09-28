@@ -9,7 +9,8 @@
     "test": "ng test",
     "serve:ssr:angular-setup": "node dist/angular-setup/server/server.mjs",
     "pretty-quick": "pretty-quick --staged",
-    "lint": "ng lint --fix"
+    "lint": "ng lint --fix",
+    "prepare": "husky install"
   },
   "prettier": {
     "printWidth": 100,
@@ -57,6 +58,7 @@
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
     "typescript": "~5.9.2",
-    "typescript-eslint": "8.40.0"
+    "typescript-eslint": "8.40.0",
+    "husky": "^8.0.0"
   }
 }
